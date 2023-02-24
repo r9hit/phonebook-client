@@ -1,0 +1,46 @@
+.contact {
+    max-width: 90vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.contact div {
+    padding: 5px 4px;
+}
+
+.err {
+    text-align: center;
+    margin: 30px auto;
+    color: rgb(189, 4, 4);
+}
+
+.mainbody {
+    border: 2px solid rgb(64, 64, 64);
+    height: 90vh;
+    width: 90vw;
+    border-radius: 9px;
+    margin: auto;
+}
+
+.titleContact {
+    background-color: teal;
+    border-radius: 9px 9px 0px 0px;
+    color: white;
+}
+
+.editbutton {
+    background-color: teal;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px 0px 8px 0px;
+    border: 1px solid grey;
+}
+
+.editbutton:hover {
+    background-color: white;
+    color: teal;
+}
+
+.evenContact {
+    background-color: rgb(232, 232, 232);
+}

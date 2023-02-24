@@ -1,0 +1,24 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 90vw;
+    margin: 5px auto;
+    padding: 2px;
+    border: 2px solid rgb(64, 64, 64);
+    border-radius: 9px;
+}
+
+nav .navbtn {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    background-color: teal;
+    border: 2px solid teal;
+    border-radius: 8px;
+}
+
+nav .navbtn:hover {
+    background-color: white;
+    color: rgb(0, 92, 92);
+}
